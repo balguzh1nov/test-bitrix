@@ -1,0 +1,28 @@
+# Исключаем временные файлы
+*.log
+*.tmp
+*.swp
+
+# Исключаем кэш и сессии Bitrix
+bitrix/cache/
+bitrix/managed_cache/
+bitrix/sessions/
+
+# Исключаем папку с зависимостями Composer
+/vendor/
+
+# Исключаем файлы конфигурации IDE (например, PhpStorm)
+.idea/
+
+# Исключаем настройки среды
+.env
+
+# Исключаем файлы билдов, сборки и кэшированные файлы
+*.min.js
+*.min.css
+dist/
+build/
+
+# Если используешь Docker, можно исключить файлы конфигурации
+docker-compose.yml
+Dockerfile
